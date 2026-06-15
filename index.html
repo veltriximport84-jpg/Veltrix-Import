@@ -150,6 +150,19 @@ cart.forEach(i=>{t+=i.p; html+=i.n+' - S/.'+i.p.toFixed(2)+'<br>'; msg+='🛒 '+
 document.getElementById('items').innerHTML=html;
 document.getElementById('total').innerText='Total: S/.'+t.toFixed(2);
 msg += '%0A💰 Total: S/.'+t.toFixed(2);
-document.getElementById('wa').href='https://wa.me/519389469444?text='+msg;
+document.getElementById('wa').onclick = function(){
+
+    let enlace='https://wa.me/519389469444?text='+msg;
+
+    window.open(enlace,'_blank');
+
+    cart=[];
+
+    document.getElementById('items').innerHTML='';
+
+    document.getElementById('total').innerText='Total: S/.0.00';
+
+    return false;
+};
 }
 </script></body></html>
