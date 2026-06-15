@@ -1,0 +1,155 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>VELTRIX IMPORTS</title>
+<style>
+body{margin:0;background:#111;color:#fff;font-family:Arial}
+header{background:#000;padding:20px;text-align:center;border-bottom:2px solid #d4af37}
+.banner{background:#d4af37;color:#000;padding:10px;text-align:center;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;padding:15px}
+.card{background:#1a1a1a;padding:10px;border-radius:10px;text-align:center}
+.card img{width:100%;height:250px;object-fit:cover;border-radius:8px}
+button{background:#d4af37;border:0;padding:10px;border-radius:8px;font-weight:bold;cursor:pointer}
+#cart{position:fixed;right:10px;bottom:10px;background:#000;padding:15px;border-radius:10px;width:280px}
+.whatsapp{display:block;background:#25D366;color:white;text-decoration:none;padding:10px;text-align:center;border-radius:8px;margin-top:10px}
+</style></head><body>
+<header><h1>VELTRIX IMPORTS</h1><p>Perfumes Árabes Originales Premium</p></header>
+<div class='banner'>🚚 Envíos a todo el Perú | 📲 Compra fácil por WhatsApp</div>
+<div class='grid'>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.01.08 PM.jpeg' alt='Khamrah Clásico'>
+      <h3>Khamrah Clásico</h3>
+      <p>S/.145.00</p>
+      <button onclick="addItem('Khamrah Clásico',145.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.01.25 PM.jpeg' alt='Khamrah Qahwa'>
+      <h3>Khamrah Qahwa</h3>
+      <p>S/.145.00</p>
+      <button onclick="addItem('Khamrah Qahwa',145.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.01.33 PM.jpeg' alt='Mandarin Sky Men'>
+      <h3>Mandarin Sky Men</h3>
+      <p>S/.140.00</p>
+      <button onclick="addItem('Mandarin Sky Men',140.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.01.39 PM.jpeg' alt='9PM Men'>
+      <h3>9PM Men</h3>
+      <p>S/.145.00</p>
+      <button onclick="addItem('9PM Men',145.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.01.55 PM.jpeg' alt='9PM Night Out'>
+      <h3>9PM Night Out</h3>
+      <p>S/.175.00</p>
+      <button onclick="addItem('9PM Night Out',175.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.02.01 PM.jpeg' alt='Hawas Ice'>
+      <h3>Hawas Ice</h3>
+      <p>S/.168.00</p>
+      <button onclick="addItem('Hawas Ice',168.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.02.07 PM.jpeg' alt='Yara Pink'>
+      <h3>Yara Pink</h3>
+      <p>S/.135.00</p>
+      <button onclick="addItem('Yara Pink',135.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.02.15 PM.jpeg' alt='Sublime'>
+      <h3>Sublime</h3>
+      <p>S/.130.00</p>
+      <button onclick="addItem('Sublime',130.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.02.24 PM.jpeg' alt='Odyssey Aqua'>
+      <h3>Odyssey Aqua</h3>
+      <p>S/.155.00</p>
+      <button onclick="addItem('Odyssey Aqua',155.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.02.30 PM.jpeg' alt='9AM Dive'>
+      <h3>9AM Dive</h3>
+      <p>S/.140.00</p>
+      <button onclick="addItem('9AM Dive',140.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.02.36 PM.jpeg' alt='Khamrah Waha'>
+      <h3>Khamrah Waha</h3>
+      <p>S/.195.00</p>
+      <button onclick="addItem('Khamrah Waha',195.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.02.46 PM.jpeg' alt='Khamrah Dukhan'>
+      <h3>Khamrah Dukhan</h3>
+      <p>S/.140.00</p>
+      <button onclick="addItem('Khamrah Dukhan',140.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.03.16 PM.jpeg' alt='Club de Nuit Intense Man'>
+      <h3>Club de Nuit Intense Man</h3>
+      <p>S/.152.00</p>
+      <button onclick="addItem('Club de Nuit Intense Man',152.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.03.26 PM.jpeg' alt='Asad Clásico'>
+      <h3>Asad Clásico</h3>
+      <p>S/.135.00</p>
+      <button onclick="addItem('Asad Clásico',135.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.03.33 PM.jpeg' alt='Hawas Fire'>
+      <h3>Hawas Fire</h3>
+      <p>S/.175.00</p>
+      <button onclick="addItem('Hawas Fire',175.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.03.39 PM.jpeg' alt='Go Mango'>
+      <h3>Go Mango</h3>
+      <p>S/.155.00</p>
+      <button onclick="addItem('Go Mango',155.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.03.45 PM.jpeg' alt='Nitro Red Pour Homme'>
+      <h3>Nitro Red Pour Homme</h3>
+      <p>S/.148.00</p>
+      <button onclick="addItem('Nitro Red Pour Homme',148.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.03.51 PM.jpeg' alt='Malachite'>
+      <h3>Malachite</h3>
+      <p>S/.136.00</p>
+      <button onclick="addItem('Malachite',136.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.04.00 PM.jpeg' alt='Set 9PM Men'>
+      <h3>Set 9PM Men</h3>
+      <p>S/.185.00</p>
+      <button onclick="addItem('Set 9PM Men',185.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.04.06 PM.jpeg' alt='Gold Edition'>
+      <h3>Gold Edition</h3>
+      <p>S/.199.00</p>
+      <button onclick="addItem('Gold Edition',199.0)">Agregar al carrito</button>
+    </div>
+    <div class='card'>
+      <img src='imagenes/WhatsApp Image 2026-06-14 at 7.04.12 PM.jpeg' alt='Bharara King'>
+      <h3>Bharara King</h3>
+      <p>S/.202.00</p>
+      <button onclick="addItem('Bharara King',202.0)">Agregar al carrito</button>
+    </div></div>
+<div id='cart'><h3>🛒 Carrito</h3><div id='items'></div><b id='total'>Total: S/.0.00</b><a id='wa' class='whatsapp' target='_blank'>Finalizar pedido por WhatsApp</a></div>
+<script>
+let cart=[];
+function addItem(n,p){cart.push({n,p});render();}
+function render(){
+let t=0,msg='Hola VELTRIX IMPORTS, deseo realizar el siguiente pedido:%0A%0A',html='';
+cart.forEach(i=>{t+=i.p; html+=i.n+' - S/.'+i.p.toFixed(2)+'<br>'; msg+='🛒 '+i.n+' - S/.'+i.p.toFixed(2)+'%0A';});
+document.getElementById('items').innerHTML=html;
+document.getElementById('total').innerText='Total: S/.'+t.toFixed(2);
+msg += '%0A💰 Total: S/.'+t.toFixed(2);
+document.getElementById('wa').href='https://wa.me/519389469444?text='+msg;
+}
+</script></body></html>
